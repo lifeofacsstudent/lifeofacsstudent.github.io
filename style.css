@@ -80,6 +80,11 @@ body {
 		font-size: 140%;
 	}
 }
+@media only screen and (max-width: 330px) {
+	.head {
+    	font-size: 150%;
+    }
+}
 
 .head {
 	background-color: rgb(90,87,111);
