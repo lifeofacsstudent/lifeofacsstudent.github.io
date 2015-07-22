@@ -148,6 +148,18 @@ span {
 	color: white;
 	text-align: center;
 }
+#h1404, #h2404, #p404 {
+	text-align:center;
+}
+#h1404 {
+	font-size:1000%;
+}
+#h2404 {
+	font-size:200%;
+}
+#p404 {
+	font-size:150%;
+}
 a {
 	text-decoration:none;
 	color:#292929;
