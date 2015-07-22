@@ -209,6 +209,9 @@ img {
 	box-shadow: 0;
 	display: inline;
 }
+#disqus_thread {
+	padding:10px;
+}
 ::-webkit-scrollbar {
 	width: 10px;
 }
