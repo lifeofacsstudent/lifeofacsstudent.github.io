@@ -4,7 +4,26 @@ body {
 	padding:0;
 	background-color: rgb(220,230,242);
 }
-
+@media print {
+    .more, .about {
+        display:none;
+    }
+	.head {
+		font-size:200%;
+	}
+	h1 {
+		font-size:130%;
+	}
+	h2 {
+		font-size:120%;
+	}
+	p {
+		font-size:100%;
+	}
+	body{
+  -webkit-print-color-adjust:exact;
+}
+}
 @media only screen and  (min-width:900px) {
  	.menu {
  		width:900px;
