@@ -1,6 +1,6 @@
 
 function goBack() {
-	location.href = "index.html";
+	location.href = "http://lifeofacsstudent.github.io";
 }
 
 var col="";
