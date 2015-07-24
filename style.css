@@ -5,7 +5,7 @@ body {
 	background-color: rgb(220,230,242);
 }
 @media print {
-    .more, .about {
+    .more, .about, #disqus_thread, #share-buttons  {
         display:none;
     }
 	.head {
