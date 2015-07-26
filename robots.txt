@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /404.html
+Allow: /2015/0.html
+Allow: /2015/1.html
