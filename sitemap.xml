@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+
+    <loc>http://lifeofacsstudent.github.io/index.html</loc> 
+    <loc>http://lifeofacsstudent.github.io/404.html</loc> 
+    <loc>http://lifeofacsstudent.github.io/2015/0.html</loc> 
+    <loc>http://lifeofacsstudent.github.io/2015/1.html</loc> 
+
+    <loc>https://lifeofacsstudent.github.io/index.html</loc>
+    <loc>https://lifeofacsstudent.github.io/404.html</loc>  
+    <loc>https://lifeofacsstudent.github.io/2015/0.html</loc> 
+    <loc>https://lifeofacsstudent.github.io/2015/1.html</loc> 
+
+    <image:image>
+		<image:loc>http://lifeofacsstudent.github.io/resource/favicon.ico</image:loc> 
+		<image:loc>http://lifeofacsstudent.github.io/resource/0_1_sms.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/1_1_bulbs.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/1_2_cs.jpg</image:loc>
+	</image:image>
+
+  </url>
+</urlset>

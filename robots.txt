@@ -1,4 +1,5 @@
 User-Agent: *
+Sitemap: http://lifeofacsstudent.github.io/sitemap.xml
 Disallow: 
 Allow: /index.html
 Allow: /404.html
