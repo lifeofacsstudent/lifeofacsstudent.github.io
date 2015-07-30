@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>#3 - [ life of a CS student ]</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="life, IT, computer, computer science, cs, student, students, technology, news, my, university, tech, Java, CSS, HTML, JavaScript">
+		<meta name="description" content="Java job interviews - Sharing job interview stories! ">
+		<meta name="author" content="Leonora Der">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="/resource/favicon.ico"/>
+	</head>
+
+	<body onLoad="sendMail()">
+		<div class="head" onclick="goBack();"> <span>[</span> life of a CS student <span>]</span> </div>
+		<div class="content">
+			<div class="article" id="2p">
+				<div class="side purple"></div>
+				<div class="news">
+					<h1>Java job interviews </h1>
+					<h2> I would like to collect those stories which one can get on a Java interview.</h2>
+					<p>I want this post to be a collection. I would like to add experience stories which one can get on a Java interview. To start off I add my first job interview experience, but if you have some stories, please let me know, send me an e-mail. </p>
+					<p><b>#0 - Junior Java developer</b></p>
+					<p>I applied to a small startup company, everything went great. 
+					On the first "meeting" I was interviewed by a senior developer and maybe a marketing guy. We used http://collabedit.com.  
+					Only one task and at the end some questions on programming. So this is what I was given: </p>
+<pre class="code">
+public class Course {
+	private final String name;
+	private final List<Student> participants;
+	private int capacity;
+	
+	//todo: add whatever is needed to make it compile
+}
+
+public class Student {
+	private final Integer id;
+	private final String name;
+	
+	//todo: add whatever is needed to make it compile
+}
+
+public interface Registration {
+	/**
+	* Register student to course
+	* @param student - Student to be registered
+	* @param courseName - Name of the course
+	* @return true if student was registered, false otherwise
+	*/
+
+	public boolean register(Student student, String courseName);
+}
+
+public class ???? implements Registration {
+	private List<Course> courses;
+	//todo: complete me  
+}
+
+// Example usage, course creation
+Course c1 = new Course("course1", 10);
+Course c2 = new Course("course2", 10);
+Course c3 = new Course("course3", 10);
+Course c4 = new Course("course4", 10);
+
+List<Course> temp = new ArrayList<>(4);
+temp.add(c1);
+temp.add(c2);
+temp.add(c3);
+temp.add(c4);
+
+Registration registration = ????
+
+Student student1 = new Student(1, "Some Name");
+//example usage, registration
+registration.register(student1, "course1");
+registration.register(student1, "course2");
+registration.register(student1, "course3");
+</pre>
+					<p>Of course I had to make it work. After a few days I received an e-mail that the first interview was going well and let's have a second one! I was very happy..... :) </p>
+					<p>The second one happened the next week and it had 2 parts. The first one was mainly about me. They asked simple questions like how I started programming, what I like most in it, what projects I had, also they had questions on working in a team, etc. The second part was the funniest I think. They gave me math problems. </p>
+					<ol>
+					<li>Get exactly 4 cups of water using a 5-cup pail and a 3-cup pail.</li>
+					<li>Suppose you had eight identical basketballs. One of them is  slightly heavier and you are given a balance scale . Can you find the heavier ball using the scale only 2 times? </li>
+					<li>There are 100 couples living in a country and people only want boys. Every family continues to have children until they have a boy. If they have a girl, they have another child. If they have a boy, they stop. What is the proportion of boys to girls in the country?</li>
+					</ol>
+					<p>Of course I could find the answers, but I would have not ever thought that They will give me math problems. Are there programmers out there who cannot solve these kind of problems? I would be shocked! It is about simple logic. A programmer must be able to solve these! :) </p>
+					<p>Anyway, this part of the interview also went well.</p>
+					<h1><b>Please send me your interview stories, too! :) <b></h1>
+					<p class="date">2015.07.30.</p>
+					<div id="share-buttons">
+						<!--https://simplesharebuttons.com/html-share-buttons/-->
+						<!-- Facebook -->
+						<a href="http://www.facebook.com/sharer.php?u=http://lifeofacsstudent.github.io/2015/3.html" target="_blank">
+							<img src="/resource/share/facebook.png" alt="Facebook" />
+						</a>
+						<!-- Google+ -->
+						<a href="https://plus.google.com/share?url=http://lifeofacsstudent.github.io/2015/3.html" target="_blank">
+							<img src="/resource/share/google.png" alt="Google" />
+						</a>
+						<!-- LinkedIn -->
+						<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://lifeofaCSstudent.github.io/2015/3.html" target="_blank">
+							<img src="/resource/share/linkedin.png" alt="LinkedIn" />
+						</a>
+						<!-- StumbleUpon-->
+						<a href="http://www.stumbleupon.com/submit?url=http://lifeofacsstudent.github.io/2015/3.html" target="_blank">
+							<img src="/resource/share/stumbleupon.png" alt="StumbleUpon" />
+						</a>
+						<!-- Tumblr-->
+						<a href="http://www.tumblr.com/share/link?url=http://lifeofacsstudent.github.io/2015/3.html" target="_blank">
+							<img src="/resource/share/tumblr.png" alt="Tumblr" />
+						</a>
+						<!-- Twitter -->
+						<a href="https://twitter.com/share?url=http://lifeofacsstudent.github.io/2015/3.html&amp;hashtags=lifeofacsstudent" target="_blank">
+							<img src="/resource/share/twitter.png" alt="Twitter" />
+						</a>
+					</div>
+					<div id="disqus_thread"></div>
+					<script type="text/javascript">	
+						var disqus_shortname = 'lifeofacsstudent';
+						(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+				</div>
+			</div>
+		</div>
+		
+		<div class="about">
+			<p class="sub">If you have a story or a funny thing to share, please let me know! </p>
+            <div>
+                <span id="mail"></a></span>
+            </div>
+		</div>
+
+		<script type="text/javascript" src="/functions.js"></script>
+
+	</body>
+
+</html>
+
