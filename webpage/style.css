@@ -285,12 +285,13 @@ img {
 table {
 	background-color:rgb(255,255,221); /*light*/
 	display: table; 
-    width: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 15px 0;
 	border:0;     
     border-spacing: 0px; 
     border-collapse: collapse; 
+    table-layout: fixed;
 }
 table img {
 	max-width: 100%;
