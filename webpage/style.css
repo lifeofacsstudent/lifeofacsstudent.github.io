@@ -290,14 +290,10 @@ img {
 	align-items: center;
 	justify-content: space-between;
 }
-#mely {
-	max-width: 60%;
-	float: right;
-
-}
 .pic {
 	max-height: 100%;
 	max-width: 100%;
+	text-align: center;
 	display: block;
 }
 .sidepic {
