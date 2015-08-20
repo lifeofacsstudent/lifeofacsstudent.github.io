@@ -21,10 +21,14 @@ body {
 }
 @media only screen and (max-width: 340px) {
 	h1 {
-		font-size: 70%;
+		font-size: 80%;
 	}
 	h2 {
 		font-size: 60%;
+	}
+	.sub {
+		font-size: 75%;
+		min-width: 80px;
 	}
 }
 @media only screen and (min-width: 341px) and (max-width: 480px) {
@@ -161,6 +165,7 @@ h3 {
 	font-size: xx-large;
 	font-weight: normal;
 	padding:5px 0;
+	margin:20px;
 	text-align: center;
 }
 h4 {
@@ -185,6 +190,47 @@ h5 {
 img {
 	margin:0;
 	padding:0;
+}
+.flow {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color:rgb(255,255,221); 
+	margin:15px 0;
+}
+.item {
+	padding: 1px;
+	min-height: 150px;
+
+}
+.ref {
+	width: 100%;
+	text-align: center;
+	margin:15px auto;
+	padding:0;
+	background-color:rgb(255,255,221);
+}
+.ref img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+.caption {
+	background-color:rgb(235,211,82);
+	line-height: 25px;
+	margin:0;
+	padding:0;
+}
+a:link, a:visited  {
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+a:hover, a:active {
+    text-decoration: none;
+    color:rgb(255,255,221);
 }
 #header {
 	margin:15px auto;
