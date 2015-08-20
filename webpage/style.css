@@ -239,8 +239,8 @@ img {
 	margin:0;
 	padding:0;
 	position: relative;
-    margin:  0 auto;
-    overflow:  hidden;
+    margin: 0 auto;
+    overflow: hidden;
 	width: 100%;
     text-align: center;
 }
@@ -248,7 +248,8 @@ img {
 	filter:  progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 }
 #show img {
-    border:  none;
+	padding:0;
+    border: 0;
     max-height: 100%;
     max-width: 100%;
     vertical-align: middle;
@@ -259,7 +260,7 @@ img {
     position:  absolute;
     width: 100%;
     bottom:  0px;
-    padding:  5px 3px;
+    padding:  3px 3px;
     color: #404040 ;
 }
 #show .slideshow-marker  {
@@ -267,7 +268,9 @@ img {
     height:  10px;
     float:  left;
     background-image:  url('marker.png');
-    margin-right:  4px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    margin-top: 3px; 
 }
 #show .slideshow-marker:hover {
     cursor:  pointer;
