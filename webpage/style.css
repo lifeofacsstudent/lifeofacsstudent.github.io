@@ -19,12 +19,20 @@ body {
 @-ms-viewport{
   width: device-width;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 340px) {
 	h1 {
-		font-size: 130%;
+		font-size: 70%;
 	}
 	h2 {
-		font-size: 70%;
+		font-size: 60%;
+	}
+}
+@media only screen and (min-width: 341px) and (max-width: 480px) {
+	h1 {
+		font-size: 85%;
+	}
+	h2 {
+		font-size: 60%;
 	}
 	img {
 		max-width: 20%;
@@ -120,9 +128,6 @@ body {
 	    clear: both;
 		width: 100%
 	}
-	table {
-		direction: ltr;
-	}
 }
 @media only screen and (min-width: 816px) {
 	#wrapper {
@@ -142,12 +147,10 @@ h1 {
 	padding:20px 0 5px 0;
 	margin:0;
 }
-
 p {
 	padding:5px 0;
 	margin:0;
 	text-align: center;
-
 }
 h2 {
 	font-weight: normal;
