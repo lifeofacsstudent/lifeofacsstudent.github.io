@@ -230,9 +230,14 @@ img {
     padding: 3px auto;
     max-width: 100%;
 }
-.imgp {
-    width: 100%;
+.imgdiv {
+	width: 100%;
     padding: 0;
+	display: table; 
+	table-layout: fixed
+}
+.imgp {
+    display: table-cell;
 	text-align: center;
 }
 .more {
@@ -321,3 +326,4 @@ blockquote p {
     text-align: center;
     font-weight: bold;
 }
+
