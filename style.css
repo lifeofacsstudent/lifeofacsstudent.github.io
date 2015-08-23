@@ -40,22 +40,33 @@ body {
         -webkit-print-color-adjust: exact
     }
 }
-@media only screen and (min-width: 900px) {
-    .article,
-    .menu {
-        width: 900px
-    }
-    .menu {
-        margin: 0 auto
-    }
-}
-@media only screen and (max-width: 899px) {
-    .article,
+@media only screen and (max-width: 330px) {
+	.article,
     .menu {
         width: 100%
     }
+    .head {
+        font-size: 150%
+    }
+	.menu-item {
+        font-size: 120%
+    }
+    .more,
+    h1 {
+        font-size: 110%
+    }
+    h2 {
+        font-size: 100%
+    }
+    p {
+        font-size: 90%
+    }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 331px) and (max-width: 575px) {
+	.article,
+    .menu {
+        width: 100%
+    }
     .head {
         font-size: 200%
     }
@@ -73,7 +84,11 @@ body {
         font-size: 90%
     }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 899px) {
+	.article,
+    .menu {
+        width: 100%
+    }
     .head {
         font-size: 350%
     }
@@ -91,11 +106,16 @@ body {
         font-size: 100%
     }
 }
-@media only screen and (max-width: 330px) {
-    .head {
-        font-size: 150%
+@media only screen and (min-width: 900px) {
+    .article,
+    .menu {
+        width: 900px
+    }
+    .menu {
+        margin: 0 auto
     }
 }
+
 .head {
     background-color: #5a576f;
     padding: 30px 0;
