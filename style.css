@@ -68,7 +68,7 @@ body {
         font-size: 90%
     }
 	#videopic {
-		display:block;
+		display:table;
 	}
 	#videoemb {
 		display:none;
@@ -96,7 +96,7 @@ body {
         font-size: 90%
     }
 	#videopic {
-		display:block;
+		display:table;
 	}
 	#videoemb {
 		display:none;
@@ -127,7 +127,7 @@ body {
 		display:none;
 	}
 	#videoemb {
-		display:block;
+		display:table;
 	}
 }
 @media only screen and (min-width: 900px) {
