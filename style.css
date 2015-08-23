@@ -225,14 +225,14 @@ p {
 .more,
 .sub {
     text-align: center;
-	width:100%;
+	max-width:100%;
 }
 img {
     padding: 3px 0;
-    width: 100%;
+    max-width: 100%;
 }
 .imgp {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
 }
 .more {
