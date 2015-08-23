@@ -8,3 +8,4 @@ Allow: /2015/1.html
 Allow: /2015/2.html
 Allow: /2015/3.html
 Allow: /2015/4.html
+Allow: /2015/5.html

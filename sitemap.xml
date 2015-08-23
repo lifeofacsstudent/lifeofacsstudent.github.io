@@ -11,6 +11,7 @@
     <loc>http://lifeofacsstudent.github.io/2015/2.html</loc> 
 	<loc>http://lifeofacsstudent.github.io/2015/3.html</loc> 
 	<loc>http://lifeofacsstudent.github.io/2015/4.html</loc> 
+	<loc>http://lifeofacsstudent.github.io/2015/5.html</loc> 
 
     <loc>https://lifeofacsstudent.github.io/index.html</loc>
     <loc>https://lifeofacsstudent.github.io/404.html</loc>  
@@ -19,6 +20,7 @@
     <loc>https://lifeofacsstudent.github.io/2015/2.html</loc> 
     <loc>https://lifeofacsstudent.github.io/2015/3.html</loc>
 	<loc>https://lifeofacsstudent.github.io/2015/4.html</loc>
+	<loc>https://lifeofacsstudent.github.io/2015/5.html</loc>
 
     <image:image>
 		<image:loc>http://lifeofacsstudent.github.io/resource/favicon.ico</image:loc> 
@@ -26,6 +28,13 @@
 		<image:loc>http://lifeofacsstudent.github.io/resource/1_1_bulbs.jpg</image:loc>
 		<image:loc>http://lifeofacsstudent.github.io/resource/1_2_cs.jpg</image:loc>
         <image:loc>http://lifeofacsstudent.github.io/resource/2_1_exam.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/5_1_floppy.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/5_2_floppy2.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/5_3_plan.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/5_4_museum.jpg</image:loc>
+		<image:loc>http://lifeofacsstudent.github.io/resource/5_5_inventor.jpg</image:loc>
+		
+		
 	</image:image>
 
   </url>
