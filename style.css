@@ -114,6 +114,22 @@ body {
     .menu {
         margin: 0 auto
     }
+	.head {
+        font-size: 350%
+    }
+    .menu-item {
+        font-size: 150%
+    }
+    .more,
+    h1 {
+        font-size: 140%
+    }
+    h2 {
+        font-size: 115%
+    }
+    p {
+        font-size: 100%
+    }
 }
 
 .head {
