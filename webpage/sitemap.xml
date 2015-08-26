@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+
+    <loc>http://dorpetbt.hu/index.html</loc> 
+    <loc>http://dorpetbt.hu/404.html</loc> 
+    <loc>http://dorpetbt.hu/rolunk.html</loc> 
+    <loc>http://dorpetbt.hu/referenciaink.html</loc> 
+    <loc>http://dorpetbt.hu/szolgaltatasok.html</loc> 
+    <loc>http://dorpetbt.hu/kapcsolat.html</loc> 
+
+    <image:image>
+
+  		<image:loc>http://dorpetbt.hu/favicon.ico</image:loc> 
+      <image:loc>http://dorpetbt.hu/magas.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/mely.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/logo.png</image:loc> 
+      <image:loc>http://dorpetbt.hu/logonew.png</image:loc> 
+      <image:loc>http://dorpetbt.hu/001.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/002.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/003.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/004.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/005.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/006.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/007.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/008.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/009.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/010.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/011.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/012.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/013.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/014.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/015.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/016.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/017.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/018.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/019.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/020.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/021.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/022.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/023.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/024.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/025.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/026.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/027.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/028.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/029.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/030.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/031.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/032.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/033.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/034.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/035.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/036.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/037.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/038.jpg</image:loc> 
+      <image:loc>http://dorpetbt.hu/039.JPG</image:loc> 
+      <image:loc>http://dorpetbt.hu/040.jpg</image:loc> 
+
+	</image:image>
+
+  </url>
+</urlset>

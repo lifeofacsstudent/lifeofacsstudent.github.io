@@ -1,0 +1,9 @@
+User-Agent: *
+Sitemap: http://dorpetbt.hu/sitemap.xml
+Allow: /index.html
+Allow: /404.html
+Allow: /rolunk.html
+Allow: /referenciaink.html
+Allow: /szolgaltatasok.html
+Allow: /kapcsolat.html
+Disallow: 
