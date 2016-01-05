@@ -1,0 +1,185 @@
+body {
+	margin:0;
+	padding:0;
+	color:#333;
+	font-family: "cg";
+	overflow:hidden;
+}
+
+#startPage {
+	display:table;
+	width:100%;
+	height:100%;
+	background-color: rgb(209, 223, 239);
+}
+#gamePage {
+	display:none;
+}
+#menu {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	display:table-cell;
+}
+
+.menuItem {
+    padding: 10px 0 10px 0;
+    width: 60%;
+    background-color: rgb(90, 87, 111);
+    margin: 0 auto 10px auto;
+    color: #ddd;
+}
+#button{
+    display: inline-block;
+    font-family: "cg";
+    font-size: medium;
+    border: none;
+    color: #666;
+    padding: 0px 10px;
+    border-radius: 0px;
+    background-color: #ddd;
+}
+input {
+    font-family: "cg";
+    font-size: medium;
+    outline: none;
+    border: none;
+    color: #666;
+    padding:15px;
+	border-radius: 0px;
+}
+
+.tool {
+	display:inline-block;
+	font-size:x-large;
+	/*background-color: #FFFED6;*/
+	margin:0 20px 0 20px; 
+	padding:5px;
+	/*color:#666;*/
+	min-width:40px;
+}
+#backbutton {
+	float:left;
+}
+#point {
+	float:right;
+}
+#wordcloud {
+	background-color: rgb(209, 223, 239);
+}
+#loadlast {
+	display:none;
+}
+.header {
+	background-color: rgb(90, 87, 111);
+	padding:20px 0 5px 0;
+	position: absolute;
+	text-align:center;
+	top:0;
+	width:100%;
+	color: #ddd;
+	z-index:1;
+	min-height:50px;
+	/*max-height:64px;*/
+}
+.footer {
+	background-color: #FFFED6;
+	text-align:center;
+	margin:0;
+	padding:20px 0;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	min-height:50px;
+	font-size:x-large;
+	line-height:50px;
+}
+@font-face {
+  font-family: 'cg';
+  src: url("../fonts/cg.ttf") format("opentype");
+}
+h1{
+	padding:0;
+	margin:0;
+}
+.star  {
+	display: inline-block;
+	margin:10px 3px;
+	width:25px;
+	height:25px;
+	background-color:
+}
+
+
+.diamond{
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: rgb(90, 87, 111);
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	margin:10px 3px;
+}
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -10px;
+	top: 10px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: rgb(90, 87, 111);
+}
+
+/*--------------------------------------------------------*/
+/*on/off switch*/
+
+.onoffswitch {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer; margin: 0 0 10px 0;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 36px; padding: 0; line-height: 36px;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "sound on";
+    padding-left: 10px;
+    background-color: #8F8BA6; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "sound off";
+    padding-right: 10px;
+    background-color: buttonface; color: #999;
+    text-align: center;
+}
+.onoffswitch-switch {
+    display: block; width: 36px; margin: 0px;
+    background: #FFF;
+    position: absolute; top: 0; bottom: 0;
+    right: -moz-calc(100% - 36px);
+    right: -webkit-calc(100% - 36px);
+    right: calc(100% - 36px);
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}

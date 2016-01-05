@@ -1,0 +1,65 @@
+<html>
+<head>
+	<script type="text/javascript" src="res/dic12.json"></script>
+	<script type="text/javascript" src="res/dic3.json"></script>
+	<script type="text/javascript" src="res/dic4.json"></script>
+	<script type="text/javascript" src="res/dic5.json"></script>
+	<script type="text/javascript" src="res/dic6.json"></script>
+	<script type="text/javascript" src="res/dic7.json"></script>
+	<script type="text/javascript" src="res/dic8.json"></script>
+	<script type="text/javascript" src="res/dic9.json"></script>
+	<script type="text/javascript" src="res/dic10.json"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/vis.js"></script>
+	<script type="text/javascript" src="js/sweetalert.min.js"></script> 
+	<script type="text/javascript" src="js/buzz.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="css/vis.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	
+	<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, height=device-height, width=device-width"/>
+	
+</head>
+<body>
+
+<div id="startPage">
+	<div class="header animated slideInDown"><h1>vocable</h1></div>
+	<div id="menu">
+		<div class="menuItem animated fadeInLeft animClass" id="play" onclick="changePages(0)">play new game</div>
+		<div class="menuItem animated fadeInLeft animClass" id="loadlast" onclick="changePages(1)">load last game</div>
+		<div class="onoffswitch animated fadeInLeft animClass" id="onOffDiv">
+			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="soundswitch" checked onclick="setSound()">
+			<label class="onoffswitch-label" for="soundswitch">
+				<span class="onoffswitch-inner"></span>
+				<span class="onoffswitch-switch"></span>
+			</label>
+		</div>
+		<div class="menuItem animated fadeInLeft animClass" id="highscore" onclick="showScores()">high score</div>
+		<div class="menuItem animated fadeInLeft animClass" id="help" onclick="showHelp()">help</div>
+		<div class="menuItem animated fadeInLeft animClass" id="info" onclick="showInfo()">info</div>
+	</div>
+	
+	<script>
+	if(localStorage.getItem('lastEdges')!=null && localStorage.getItem('lastNodes')!=null) {
+		document.getElementById("loadlast").style.display='block';
+	}
+	</script>
+</div>
+
+<div id="gamePage">
+	<div class="header">
+		<div class="tool" id="backbutton" onclick="changePages(0)">back</i></div>
+		<div class="tool" id="point">0</div>
+	</div>
+
+	<div id="wordcloud"></div>
+
+	<form class="footer" id="text" onSubmit="enterWord();return false; ">
+	  <input id="newWord">
+	  <div id="button" onclick="enterWord()">add</div>
+	</form>
+</div>
+
+</body>
+</html>
